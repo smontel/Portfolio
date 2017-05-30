@@ -1,0 +1,76 @@
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif
+}
+
+.w3-row-padding img {
+  margin-bottom: 12px
+}
+
+
+/* Set the width of the sidebar to 120px */
+
+.w3-sidebar {
+  width: 120px;
+  background: #222;
+}
+
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+
+#main {
+  margin-left: 120px
+}
+
+
+/* Remove margins from "page content" on small screens */
+a img{
+  width:46%;
+  margin:auto;
+}
+footer a{
+  text-decoration: none;
+  color:white;
+}
+footer a:hover{
+  color:grey;
+  text-decoration: none;
+}
+.skill {
+  font-size: 6em;
+  opacity: 0.6;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .skill {
+    font-size: 4.5em;
+    opacity: 0.6;
+    text-align: center;
+  }
+}
+.skill:hover {
+  color:#FFFFFF;
+}
+.skills-contain{
+  padding-top:40px;
+}
+.skill span {
+  font-size: 0.3em!important;
+  position: absolute;
+  margin-top: -53px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 7px;
+  transform:scale(0);
+  transition:all .25s;
+}
+
+.skill:hover span {
+  transform:scale(1);
+}
+
+@media only screen and (max-width: 600px) {
+  #main {
+    margin-left: 0
+  }
+}
